@@ -1,0 +1,18 @@
+Since this environment doesn't have git available to push directly to GitHub, run the following commands locally on your machine to add the project to GitHub:
+
+1. In a terminal at the project root:
+
+   git init
+   git add .
+   git commit -m "Initial commit - Teacher attendance app"
+
+2. Add your GitHub remote (replace URL if needed):
+
+   git remote add origin https://github.com/kishore999-hash/Student-Attendance-Maker-And-Sharable.git
+
+3. Push to GitHub (main branch):
+
+   git branch -M main
+   git push -u origin main
+
+If you get authentication errors, use a Personal Access Token (PAT) or set up SSH keys. If you want, I can generate a minimal GitHub Actions workflow file that builds the client and deploys to GitHub Pages on push.
